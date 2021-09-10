@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header{
+    background-color: #3161e0;
+}
+
+.logo{
+    background-image: url(./img/logo.svg);
+    float: left;
+    height: 25px;
+    background-size: contain;
+    width: 17%;
+    background-repeat: no-repeat;
+}
+
+nav{
+    float: left;
+    margin: auto;
+    width: 66%;
+    text-align: center;
+}
+
+.accedi{
+    float: left;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    width: 17%;
+}
+
+.bottone{
+    background-color: white;
+    border-radius: 5px;
+}
