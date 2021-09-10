@@ -12,15 +12,18 @@
 
 header{
     background-color: #3161e0;
+    padding: 0 10rem;
+    height: 50px;
 }
 
 .logo{
     background-image: url(./img/logo.svg);
     float: left;
-    height: 25px;
     background-size: contain;
     width: 17%;
     background-repeat: no-repeat;
+    height: 80%;
+    margin: 5px 0;
 }
 
 nav{
@@ -28,17 +31,30 @@ nav{
     margin: auto;
     width: 66%;
     text-align: center;
+    margin-top: 2px;
+    line-height: 40px;
 }
 
 .accedi{
     float: left;
-    text-align: center;
-    padding: 5px;
-    border-radius: 5px;
+    text-align: center;   
     width: 17%;
+    margin-top: 2px;
+    line-height: 40px;
 }
 
 .bottone{
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a{
+    margin: 0 20px;
+    color: white;
 }
