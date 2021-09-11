@@ -48,6 +48,9 @@ nav{
     border-radius: 15px;
     padding: 3px;
     vertical-align: middle;
+    text-align: center;
+    position: relative;
+    left: 40%;
 }
 
 .bottone-nero{
@@ -230,7 +233,7 @@ h3{
 }
 
 .arrow{
-    border: solid black;
+    border: solid white;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
@@ -251,6 +254,7 @@ h3{
 
 .foot-col{
     float: left;
+    margin: 0 4rem;
 }
 
 .titolo-footer{
@@ -259,4 +263,55 @@ h3{
 
 ul{
     list-style-type: none;
+}
+
+.contenitore-footer{
+    padding: 3rem 10rem;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+li{
+    margin: 8px 0px;
+    color: white;
+}
+
+strong{
+    color: #7289da;
+}
+
+.titolo-footer h2{
+    color: #7289da;
+    margin: 0 15px;
+}
+
+.italiano{
+    color: white;
+    margin: 2rem 15px;
+}
+
+i{
+    color: white;
+}
+
+.img-fa-footer i{
+    margin: 0 15px;
+}
+
+.bottone-grigio{
+    background-color: #8ea1e1;
+    border-radius: 15px;
+    padding: 3px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: 34px;
+}
+
+.foot{
+    border-top: 1px solid #4a5882;
 }
