@@ -22,7 +22,7 @@ header{
     background-size: contain;
     width: 17%;
     background-repeat: no-repeat;
-    height: 80%;
+    height: 40px;
     margin: 5px 0;
 }
 
@@ -45,8 +45,8 @@ nav{
 
 .bottone{
     background-color: white;
-    border-radius: 15px;
-    padding: 3px;
+    border-radius: 20px;
+    padding: 4px 10px;
     vertical-align: middle;
     text-align: center;
     position: relative;
@@ -55,8 +55,8 @@ nav{
 
 .bottone-nero{
     background-color: black;
-    border-radius: 15px;
-    padding: 3px;
+    border-radius: 20px;
+    padding: 4px 10px;
     vertical-align: middle;
     color: white;
 }
@@ -104,8 +104,8 @@ nav a{
 
 .bottone-bianco{
     background-color: white;
-    border-radius: 15px;
-    padding: 3px;
+    border-radius: 20px;
+    padding: 4px 10px;
     vertical-align: middle;
     color: black;
 }
@@ -222,8 +222,8 @@ h3{
 
 .bottone-blu{
     background-color: #8ea1e1;
-    border-radius: 15px;
-    padding: 3px;
+    border-radius: 20px;
+    padding: 4px 10px;
     vertical-align: middle;
     color: white;
     text-align: center;
@@ -306,16 +306,32 @@ i{
 
 .bottone-grigio{
     background-color: #8ea1e1;
-    border-radius: 15px;
-    padding: 3px;
+    border-radius: 20px;
+    padding: 4px 10px;
     vertical-align: middle;
     color: white;
     text-align: center;
     float: right;
     position: relative;
-    top: 34px;
+    top: 25%;
+    right: 0;
 }
 
 .foot{
     border-top: 1px solid #4a5882;
+    padding-top: 2rem;
+}
+
+html{
+    font-family: 'Catamaran', sans-serif;
+}
+
+avventura .bottone-blu{
+    position: relative;
+    top: 0;
+    left: 12%;
+}
+
+header a{
+    font-weight: bolder;
 }
