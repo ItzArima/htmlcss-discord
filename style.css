@@ -326,7 +326,7 @@ html{
     font-family: 'Catamaran', sans-serif;
 }
 
-avventura .bottone-blu{
+.avventura .bottone-blu{
     position: relative;
     top: 0;
     left: 12%;
@@ -334,4 +334,4 @@ avventura .bottone-blu{
 
 header a{
     font-weight: bolder;
-}
+} 
