@@ -43,16 +43,6 @@ nav{
     line-height: 40px;
 }
 
-.bottone{
-    background-color: white;
-    border-radius: 20px;
-    padding: 4px 10px;
-    vertical-align: middle;
-    text-align: center;
-    position: relative;
-    left: 40%;
-}
-
 .bottone-nero{
     background-color: black;
     border-radius: 20px;
@@ -151,7 +141,11 @@ nav a{
 }
 
 .contenitore-contenuti{
-    padding: 3rem 13rem;
+    padding: 3rem 13rem 6rem 20rem;
+}
+
+.contenitore-contenuti-grande{
+    padding: 3rem 13rem 6rem 13rem;
 }
 
 .testo-d{
@@ -335,3 +329,7 @@ html{
 header a{
     font-weight: bolder;
 } 
+
+main a,footer a{
+    font-weight: bolder;
+}
